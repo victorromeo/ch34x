@@ -12,9 +12,9 @@ To install into an Ubuntu 19.04 operating system (elevation to administrator req
 
 Note: Ubuntu comes with an existing CH341 driver, however it isn't particularly polished.
 
-It is worth blacklisting the original kernel module by adding it to the following file:
+It is worth blacklisting the original kernel module by adding it to the following file:\s\s
 **/etc/modprobe.d/blacklist**
 
-The record to add should read something like:
-**#Blacklist of CH341 kernel module to prevent collision with new ch34X driver**
+The record to add should read something like:\s\s
+**#Blacklist of CH341 kernel module to prevent collision with new ch34X driver**\s\s
 **blacklist ch341**
